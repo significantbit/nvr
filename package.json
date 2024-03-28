@@ -1,0 +1,38 @@
+{
+  "name": "@sigbit/nvr",
+  "description": "Use Nitro on Vercel with mixed serverless & edge functions",
+  "version": "0.3.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/significantbit/nvr"
+  },
+  "author": {
+    "name": "Jacob Andersson",
+    "url": "https://github.com/miii"
+  },
+  "bin": "dist/index.cjs",
+  "scripts": {
+    "build": "unbuild"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "unbuild": "^2.0.0"
+  },
+  "keywords": [
+    "nitro",
+    "vercel",
+    "runtime",
+    "node",
+    "edge",
+    "serverless",
+    "functions",
+    "api"
+  ],
+  "files": [
+    "dist"
+  ]
+}
